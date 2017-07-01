@@ -14,7 +14,7 @@ Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'godlygeek/tabular'
-Plugin 'SuperTab'
+"Plugin 'SuperTab'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'gregsexton/gitv'
@@ -25,7 +25,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'majutsushi/tagbar'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-endwise'
-Plugin 'Rip-Rip/clang_complete'
+"Plugin 'Rip-Rip/clang_complete'
 Plugin 'ctrlp.vim'
 Plugin 'rodjek/vim-puppet'
 Plugin 'mattn/webapi-vim'
@@ -51,7 +51,7 @@ set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_diffmode="high"
 set background=dark
-colorscheme solarized 
+colorscheme badwolf
 set term=screen-256color
 
 "## More options
@@ -89,7 +89,7 @@ set cino=N-s
 "uncategorized
 set exrc
 set wildignore=*.o,*.class,*.pyc
-set mouse=a
+"set mouse=a
 
 "Deal with html
 autocmd FileType html setlocal sw=2 ts=2 et smartindent
