@@ -40,10 +40,10 @@ filetype indent on
 syntax on
 
 " This is VIM we don't need arrow keys
-noremap   <Up>     <NOP>
-noremap   <Down>   <NOP>
-noremap   <Left>   <NOP>
-noremap   <Right>  <NOP>
+"noremap   <Up>     <NOP>
+"noremap   <Down>   <NOP>
+"noremap   <Left>   <NOP>
+"noremap   <Right>  <NOP>
 " }}}
 " Interface settings {{{
 "## 256 terminal
@@ -123,10 +123,10 @@ let g:clang_snippets_engine = 'ultisnips'
 " ---------------------------------------------------------------------
 let mapleader = ","
 
-noremap  <Up>     <NOP>
-noremap  <Down>   <NOP>
-noremap  <Left>   <NOP>
-noremap  <Right>  <NOP>
+"noremap  <Up>     <NOP>
+"noremap  <Down>   <NOP>
+"noremap  <Left>   <NOP>
+"noremap  <Right>  <NOP>
 nnoremap Q <Nop>
 
 " Tabs
