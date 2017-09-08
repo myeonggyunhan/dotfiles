@@ -93,7 +93,8 @@ set wildignore=*.o,*.class,*.pyc
 
 "Deal with html
 autocmd FileType html setlocal sw=2 ts=2 et smartindent
-autocmd FileType python,Makefile setlocal sw=2 ts=2 noexpandtab
+autocmd FileType python setlocal sw=4 ts=4 expandtab
+autocmd FileType Makefile setlocal sw=2 ts=2 noexpandtab
 autocmd FileType java setlocal sw=4 ts=4 expandtab
 " }}}
 " Gvim {{{
