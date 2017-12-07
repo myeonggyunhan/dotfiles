@@ -39,6 +39,11 @@ filetype plugin on
 filetype indent on
 syntax on
 
+augroup vimrc_autocmds
+    autocmd BufEnter * highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+    autocmd BufEnter * match OverLength /\%81v.\+/
+augroup END
+
 " This is VIM we don't need arrow keys
 "noremap   <Up>     <NOP>
 "noremap   <Down>   <NOP>
@@ -60,6 +65,8 @@ set ruler
 set incsearch
 set hlsearch
 set wildmenu
+
+set nojoinspaces
 
 "## Cursor
 set cursorline
@@ -85,6 +92,7 @@ set tabstop=2
 set backspace=2
 set foldmethod=marker
 set cino=N-s
+set textwidth=80
 
 "uncategorized
 set exrc
