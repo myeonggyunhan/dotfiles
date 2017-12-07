@@ -44,6 +44,7 @@ augroup vimrc_autocmds
     autocmd BufEnter * match OverLength /\%81v.\+/
 augroup END
 
+set nu
 " This is VIM we don't need arrow keys
 "noremap   <Up>     <NOP>
 "noremap   <Down>   <NOP>
