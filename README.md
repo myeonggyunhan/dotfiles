@@ -27,7 +27,8 @@ First, make sure you have git installed, if not run the next command if you are 
 
 Then, clone the repository and install the dotfiles:
 
-    $ git clone --recursive https://github.com/L34p/dotfiles.git .dotfiles && cd .dotfiles && ./bin/dfm install && vim -c 'PluginUpdate'
+    git clone git://github.com/kennethreitz/autoenv.git ~/.autoenv
+    git clone --recursive https://github.com/L34p/dotfiles.git .dotfiles && cd .dotfiles && ./bin/dfm install && vim -c 'PluginUpdate'
 
 ###Personal costumization
 
