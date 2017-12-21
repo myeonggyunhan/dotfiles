@@ -1,0 +1,21 @@
+Host sgx
+  HostName 10.20.18.172
+
+Host cat64
+  HostName 10.20.16.88
+
+Host cat16
+  HostName 10.20.18.49
+
+Host 4core
+  HostName 10.20.19.114
+
+Host 16core
+  HostName 10.20.17.67
+
+Host xeon-phi
+  HostName 10.20.16.38
+
+Host gamauzi
+  HostName gamauzi.hexa.pro
+  User gamauzi_master
