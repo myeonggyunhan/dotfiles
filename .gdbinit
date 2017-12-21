@@ -4203,3 +4203,4 @@ set demangle-style gnu-v3
 set print sevenbit-strings off
 #context-off
 set history save on
+source ~/peda/peda.py
