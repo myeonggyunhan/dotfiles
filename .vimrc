@@ -98,6 +98,7 @@ set textwidth=80
 "uncategorized
 set exrc
 set wildignore=*.o,*.class,*.pyc
+set ignorecase
 "set mouse=a
 
 "Deal with html
