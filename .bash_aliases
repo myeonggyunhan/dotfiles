@@ -34,6 +34,9 @@ alias du='du -ch'
 alias ua='update-alternatives '
 alias uac='update-alternatives --config '
 
+alias j='jobs'
+alias f='fg '
+
 #Add git -> g alias and enable complete for it
 alias g='git status'
 alias gh='hub'
