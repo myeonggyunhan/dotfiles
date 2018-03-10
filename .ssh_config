@@ -16,6 +16,17 @@ Host 16core
 Host xeon-phi
   HostName 10.20.16.38
 
+Host dell-16
+  HostName 10.20.19.112
+
+Host mba
+  HostName 10.20.18.231
+
 Host gamauzi
   HostName gamauzi.hexa.pro
   User gamauzi_master
+
+Host dorm
+  HostName l34p.iptime.org
+  Port 7000
+  User l34p
