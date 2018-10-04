@@ -1,3 +1,7 @@
+Host casl
+  HostName casl.unist.ac.kr
+  Port 17771
+
 Host sgx
   HostName 10.20.18.172
 
@@ -26,7 +30,6 @@ Host gamauzi
   HostName gamauzi.hexa.pro
   User gamauzi_master
 
-Host dorm
-  HostName l34p.iptime.org
-  Port 7000
-  User l34p
+Host hikey
+  HostName 10.20.19.118
+  User jhyun
