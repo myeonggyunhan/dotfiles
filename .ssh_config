@@ -30,6 +30,18 @@ Host gamauzi
   HostName gamauzi.hexa.pro
   User gamauzi_master
 
+Host knl01
+  HostName 10.0.7.231
+
+Host knl02
+  HostName 10.0.7.232
+
+Host knl03
+  HostName 10.0.7.233
+
+Host knl04
+  HostName 10.0.7.234
+
 Host hikey
   HostName 10.20.19.118
   User jhyun
