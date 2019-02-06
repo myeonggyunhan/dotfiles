@@ -45,6 +45,11 @@ augroup vimrc_autocmds
 augroup END
 
 set nu
+
+" Spell check
+set spell
+hi SpellBad cterm=underline,bold ctermfg=red
+
 " This is VIM we don't need arrow keys
 "noremap   <Up>     <NOP>
 "noremap   <Down>   <NOP>
