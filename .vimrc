@@ -48,6 +48,7 @@ set nu
 
 " Spell check
 set spell
+set spelllang+=cjk
 hi SpellBad cterm=underline,bold ctermfg=red
 
 " This is VIM we don't need arrow keys
