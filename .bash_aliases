@@ -38,7 +38,7 @@ alias j='jobs'
 alias f='fg '
 
 #Add git -> g alias and enable complete for it
-alias g='git status --untracked-files=no'
+alias g='bash ~/.dotfiles/bin/git_status_with_check.sh'
 alias gh='hub'
 complete -o default -o nospace -F _git g
 
