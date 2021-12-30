@@ -39,10 +39,10 @@ filetype plugin on
 filetype indent on
 syntax on
 
-augroup vimrc_autocmds
-    autocmd BufEnter * highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-    autocmd BufEnter * match OverLength /\%81v.\+/
-augroup END
+"augroup vimrc_autocmds
+"    autocmd BufEnter * highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"    autocmd BufEnter * match OverLength /\%81v.\+/
+"augroup END
 
 set nu
 
