@@ -9,7 +9,8 @@ if [[ "$TERM" =~ .*256color ]]; then
   [ -e "$HOME/.dircolors.256dark" ] && eval `dircolors $HOME/.dircolors.256dark 2> /dev/null`
 fi
 
-export PATH="$HOME/.bin:$PATH" 
+export PATH="$HOME/.local/bin:$HOME/.bin:$PATH" 
+export PATH="/usr/lib/ccache:$PATH"
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help:ll"
 export HISTCONTROL=ignoreboth
 export HISTSIZE=100000

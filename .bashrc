@@ -25,4 +25,4 @@ export GIT_EDITOR=vim
 
 # Autoenv
 # https://github.com/kennethreitz/autoenv
-source ~/.autoenv/activate.sh
+# source ~/.autoenv/activate.sh
